@@ -7,20 +7,12 @@ using UnityEngine.UI;
 
 public class OrderManager : MonoBehaviour
 {
-    //public List<Text> loadList;
-    //public InputField locationCode;
-    //public InputField quantity;
-    //public Dropdown priority;
-    //public InputField serial;
-    //public Image image;
-
-    //public Text PrevoiusJson;
     public GameObject prefabItem;
     public GameObject itemTable;
 
-    public string oldJson = "";
-    public string newJson = "";
-    public List<GameObject> itemList;
+    string oldJson = "";
+    string newJson = "";
+    List<GameObject> itemList;
         
     [SerializeField]
     public Orders orders;
